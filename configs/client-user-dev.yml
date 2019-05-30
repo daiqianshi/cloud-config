@@ -2,9 +2,9 @@ user:
   name: Jerry
 spring:
   zipkin:
-    base-url: http://localhost:9411
+    #base-url: http://localhost:9411
     sender:
-      type: web
+      type: rabbit #web
   sleuth:
     sampler:
       probability : 1
